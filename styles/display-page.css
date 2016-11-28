@@ -22,15 +22,18 @@ main {
 
 .grey {
 	background-color: grey;
+	height: 300px;
 	width: 33.3%;
 }
 
 .black {
 	background-color: black;
+	height: 300px;
 	width: 33.3%;
 }
 
 .orange {
 	background-color: orange;
+	height: 300px;
 	width: 33.3%;
 }
