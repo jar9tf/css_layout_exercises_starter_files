@@ -1,0 +1,36 @@
+main {
+	padding: 30px;
+	font-size: 0;
+	width: 800px;
+	margin: auto;
+}
+
+.container {
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+	font-size: 0px;
+	border: 1px solid black;
+}
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grey {
+	background-color: grey;
+	width: 33.3%;
+}
+
+.black {
+	background-color: black;
+	width: 33.3%;
+}
+
+.orange {
+	background-color: orange;
+	width: 33.3%;
+}
