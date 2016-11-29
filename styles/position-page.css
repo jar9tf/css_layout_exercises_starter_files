@@ -1,1 +1,37 @@
+body {
+	padding-right: 60px;
+	padding-left: 60px;
+}
 
+nav {
+	position: relative;
+	border: 1px solid black;
+	text-align: right;
+	height: 70px;
+	width: auto;
+	background-color: gray;
+}
+
+.logo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50px;
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	left: 50px;
+	border: solid black 2px;
+	vertical-align: middle;
+
+}
+
+ul {
+	position: absolute;
+	left: 150px;
+	top: 5px;
+}
+
+li {
+	display: inline;
+	list-style-type: none
+}
