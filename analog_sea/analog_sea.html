@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name = "description" content = "Analog Sea">
+	<meta name = "keywords" content="Analog, Sea, account, create, sign up">
+	<meta name = "author" content="Justin Roohparvar">
+
+	<link rel="stylesheet" type="text/css" href="analog_sea.css">
+	<title>Analog Sea</title>
+</head>
+<body>
+	<img src="logo.png" class="logo">
+	<form action="/signup" method="post" class="form">
+		<fieldset name="sign">
+			<legend>Sign Up</legend>
+			<label for="email">Email</label>
+			<input type="email" name="email" placeholder="foo@bar.com" class="input_submit" required>
+			<label for="password">Password</label>
+			<input type="password" name="password" placeholder="1234passw0rd" class="input_submit" required>
+			<button type="submit" value="Sign Up" id="sign_up" class="input_submit">Sign Up</button>
+			<a href="/forgot-password/new">Forgot password</a>
+		</fieldset>
+	</form>
+	<a href="/login" class="login">Already Have an account? Log in</a>
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	background-color: blue;
+}
+
+.form {
+	position: relative;
+	display: block;
+	background-color: white;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	}
+
+.logo {
+	position: relative;
+	display: block;
+	height: 35px;
+	margin-top: 17px;
+	margin-bottom: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login {
+	position: relative;
+	display: block;
+	height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.input_submit {
+	position: relative;
+	display: block;
+	width: 318px;
+	border: 2px solid gray;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.form button:hover {
+background-color: #46d246;
+ }
+
+ .form fieldset {
+ 	padding-bottom: 15px;
+ 	border: none;
+ }
+
+ .form label {
+ 	display: block;
+ 	margin-bottom: 15px;
+ }
+
+ .form legend {
+ 	text-align: center;
+ }
