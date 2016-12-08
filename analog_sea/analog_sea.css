@@ -37,15 +37,21 @@ body {
 	text-align: center;
 }
 
-.input_submit {
+.input_submit{
 	position: relative;
 	display: block;
+	color: white;
 	width: 318px;
 	height: 55px;
 	border: 2px solid gray;
 	padding-left: 15px;
 	margin-bottom: 15px;
 	margin-left: 20px;
+}
+
+.form button {
+	color: white;
+	background-color: #15CD72
 }
 
 .form button:hover {
